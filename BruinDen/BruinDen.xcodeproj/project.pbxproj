@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3920AE1E5AB00C00F4A26B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3920AD1E5AB00C00F4A26B /* AppDelegate.swift */; };
+		CE3920B01E5AB00C00F4A26B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3920AF1E5AB00C00F4A26B /* RootViewController.swift */; };
+		CE3920B21E5AB00C00F4A26B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3920B11E5AB00C00F4A26B /* DataViewController.swift */; };
+		CE3920B41E5AB00C00F4A26B /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3920B31E5AB00C00F4A26B /* ModelController.swift */; };
+		CE3920B71E5AB00C00F4A26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3920B51E5AB00C00F4A26B /* Main.storyboard */; };
+		CE3920B91E5AB00C00F4A26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3920B81E5AB00C00F4A26B /* Assets.xcassets */; };
+		CE3920BC1E5AB00C00F4A26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3920BA1E5AB00C00F4A26B /* LaunchScreen.storyboard */; };
+		CEAC0D661E5AE616004233C7 /* branham_logo_png.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CEAC0D651E5AE616004233C7 /* branham_logo_png.pdf */; };
+		CEAC0D681E5AE759004233C7 /* branham_logo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CEAC0D671E5AE759004233C7 /* branham_logo.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3920AA1E5AB00C00F4A26B /* BruinDen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BruinDen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3920AD1E5AB00C00F4A26B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3920AF1E5AB00C00F4A26B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		CE3920B11E5AB00C00F4A26B /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		CE3920B31E5AB00C00F4A26B /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		CE3920B61E5AB00C00F4A26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3920B81E5AB00C00F4A26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3920BB1E5AB00C00F4A26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3920BD1E5AB00C00F4A26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAC0D651E5AE616004233C7 /* branham_logo_png.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = branham_logo_png.pdf; path = ../../../../../Downloads/branham_logo_png.pdf; sourceTree = "<group>"; };
+		CEAC0D671E5AE759004233C7 /* branham_logo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = branham_logo.JPG; path = ../../../../../../Downloads/branham_logo.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3920A71E5AB00C00F4A26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3920A11E5AB00C00F4A26B = {
+			isa = PBXGroup;
+			children = (
+				CEAC0D651E5AE616004233C7 /* branham_logo_png.pdf */,
+				CE3920AC1E5AB00C00F4A26B /* BruinDen */,
+				CE3920AB1E5AB00C00F4A26B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3920AB1E5AB00C00F4A26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3920AA1E5AB00C00F4A26B /* BruinDen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3920AC1E5AB00C00F4A26B /* BruinDen */ = {
+			isa = PBXGroup;
+			children = (
+				CE3920AD1E5AB00C00F4A26B /* AppDelegate.swift */,
+				CE3920AF1E5AB00C00F4A26B /* RootViewController.swift */,
+				CE3920B11E5AB00C00F4A26B /* DataViewController.swift */,
+				CE3920B31E5AB00C00F4A26B /* ModelController.swift */,
+				CE3920B51E5AB00C00F4A26B /* Main.storyboard */,
+				CEAC0D671E5AE759004233C7 /* branham_logo.JPG */,
+				CE3920B81E5AB00C00F4A26B /* Assets.xcassets */,
+				CE3920BA1E5AB00C00F4A26B /* LaunchScreen.storyboard */,
+				CE3920BD1E5AB00C00F4A26B /* Info.plist */,
+			);
+			path = BruinDen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3920A91E5AB00C00F4A26B /* BruinDen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3920C01E5AB00C00F4A26B /* Build configuration list for PBXNativeTarget "BruinDen" */;
+			buildPhases = (
+				CE3920A61E5AB00C00F4A26B /* Sources */,
+				CE3920A71E5AB00C00F4A26B /* Frameworks */,
+				CE3920A81E5AB00C00F4A26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BruinDen;
+			productName = BruinDen;
+			productReference = CE3920AA1E5AB00C00F4A26B /* BruinDen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3920A21E5AB00C00F4A26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anmol Dhaka";
+				TargetAttributes = {
+					CE3920A91E5AB00C00F4A26B = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE3920A51E5AB00C00F4A26B /* Build configuration list for PBXProject "BruinDen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3920A11E5AB00C00F4A26B;
+			productRefGroup = CE3920AB1E5AB00C00F4A26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3920A91E5AB00C00F4A26B /* BruinDen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3920A81E5AB00C00F4A26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAC0D681E5AE759004233C7 /* branham_logo.JPG in Resources */,
+				CE3920BC1E5AB00C00F4A26B /* LaunchScreen.storyboard in Resources */,
+				CEAC0D661E5AE616004233C7 /* branham_logo_png.pdf in Resources */,
+				CE3920B91E5AB00C00F4A26B /* Assets.xcassets in Resources */,
+				CE3920B71E5AB00C00F4A26B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3920A61E5AB00C00F4A26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3920B01E5AB00C00F4A26B /* RootViewController.swift in Sources */,
+				CE3920B41E5AB00C00F4A26B /* ModelController.swift in Sources */,
+				CE3920B21E5AB00C00F4A26B /* DataViewController.swift in Sources */,
+				CE3920AE1E5AB00C00F4A26B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3920B51E5AB00C00F4A26B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3920B61E5AB00C00F4A26B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE3920BA1E5AB00C00F4A26B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3920BB1E5AB00C00F4A26B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3920BE1E5AB00C00F4A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3920BF1E5AB00C00F4A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3920C11E5AB00C00F4A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BruinDen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anmoldhaka.BruinDen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE3920C21E5AB00C00F4A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BruinDen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anmoldhaka.BruinDen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3920A51E5AB00C00F4A26B /* Build configuration list for PBXProject "BruinDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3920BE1E5AB00C00F4A26B /* Debug */,
+				CE3920BF1E5AB00C00F4A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3920C01E5AB00C00F4A26B /* Build configuration list for PBXNativeTarget "BruinDen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3920C11E5AB00C00F4A26B /* Debug */,
+				CE3920C21E5AB00C00F4A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3920A21E5AB00C00F4A26B /* Project object */;
+}

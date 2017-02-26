@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12106.1" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="703-4V-yAM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12074.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="clB-vc-fyl">
+            <objects>
+                <viewController id="703-4V-yAM" customClass="RootViewController" customModule="BruinDen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I7W-xW-C47"/>
+                        <viewControllerLayoutGuide type="bottom" id="IfR-02-kHw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="502-Ir-ELC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q3h-pU-vEd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101" y="-243"/>
+        </scene>
+        <!--Data View Controller-->
+        <scene sceneID="snT-py-3hH">
+            <objects>
+                <viewController storyboardIdentifier="DataViewController" id="S4R-Ja-viH" customClass="DataViewController" customModule="BruinDen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fXf-Jd-eTc"/>
+                        <viewControllerLayoutGuide type="bottom" id="EPS-s9-h4K"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="ZwX-cT-FIQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7g-HF-yjd">
+                                <rect key="frame" x="26" y="128" width="167" height="36"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="ASB Announcements"/>
+                                <connections>
+                                    <segue destination="yR2-hi-ly8" kind="show" id="u36-Y7-lNr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mC-6X-38F">
+                                <rect key="frame" x="26" y="174" width="52" height="36"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Sports"/>
+                                <connections>
+                                    <segue destination="dbB-lg-cpw" kind="show" id="6Ft-m9-zrn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ya-12-OaG">
+                                <rect key="frame" x="26" y="220" width="111" height="36"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="School Events"/>
+                                <connections>
+                                    <segue destination="Sak-mH-oGC" kind="show" id="2IK-iz-IPr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="cF2-Le-7mQ">
+                                <rect key="frame" x="20" y="30" width="280" height="38"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome, Bruin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvl-jW-wdP">
+                                <rect key="frame" x="26" y="78" width="125.5" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.27481690460000002" blue="0.569867228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Uniting School Community)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K3O-Wi-XcB">
+                                <rect key="frame" x="44" y="539" width="231" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.7553230246" green="0.069136687200000005" blue="0.1906021497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuI-xI-wgp">
+                                <rect key="frame" x="26" y="266" width="120" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="aod-oy-7sq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Club Meetings"/>
+                                <connections>
+                                    <segue destination="vFv-y0-3zc" kind="show" id="vdi-Rl-azX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WH2-Lo-VkX">
+                                <rect key="frame" x="26" y="312" width="75" height="36"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="Birthdays"/>
+                                <connections>
+                                    <segue destination="Olo-VV-kMA" kind="show" id="cWy-BU-Uuo"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tAt-fb-L4g">
+                                <rect key="frame" x="236" y="394" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Display Safety Alerts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yve-ua-skE">
+                                <rect key="frame" x="26" y="398" width="165.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="branham_logo.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="z7a-DR-raH">
+                                <rect key="frame" x="201" y="30" width="113" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bruin Den" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkA-oI-hsl">
+                                <rect key="frame" x="90" y="510" width="141" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="21"/>
+                                <color key="textColor" red="0.7553230246" green="0.069136687200000005" blue="0.1906021497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N7g-HF-yjd" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="7mv-m4-6lr"/>
+                            <constraint firstItem="iuI-xI-wgp" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="BfE-wd-lzU"/>
+                            <constraint firstItem="8ya-12-OaG" firstAttribute="top" secondItem="4mC-6X-38F" secondAttribute="bottom" constant="10" id="EEx-jA-oB0"/>
+                            <constraint firstItem="WH2-Lo-VkX" firstAttribute="top" secondItem="iuI-xI-wgp" secondAttribute="bottom" constant="10" id="FC5-Eq-hB5"/>
+                            <constraint firstItem="Yve-ua-skE" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="Gz1-hZ-fU1"/>
+                            <constraint firstItem="Yve-ua-skE" firstAttribute="top" secondItem="WH2-Lo-VkX" secondAttribute="bottom" constant="50" id="IOM-6F-rMP"/>
+                            <constraint firstItem="EPS-s9-h4K" firstAttribute="top" secondItem="cF2-Le-7mQ" secondAttribute="bottom" constant="500" id="LAw-cc-zmg"/>
+                            <constraint firstItem="nvl-jW-wdP" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="MGi-Mf-omt"/>
+                            <constraint firstItem="cF2-Le-7mQ" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leading" constant="20" symbolic="YES" id="PnF-O8-Bso"/>
+                            <constraint firstItem="8ya-12-OaG" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="T0q-bH-Dnp"/>
+                            <constraint firstItem="iuI-xI-wgp" firstAttribute="top" secondItem="8ya-12-OaG" secondAttribute="bottom" constant="10" id="Utg-lm-hYt"/>
+                            <constraint firstAttribute="trailing" secondItem="cF2-Le-7mQ" secondAttribute="trailing" constant="20" symbolic="YES" id="cCk-mG-gz5"/>
+                            <constraint firstItem="WH2-Lo-VkX" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="hex-GV-xhq"/>
+                            <constraint firstItem="4mC-6X-38F" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="iim-Wh-Fnw"/>
+                            <constraint firstItem="iuI-xI-wgp" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="kYD-UC-LGY"/>
+                            <constraint firstItem="N7g-HF-yjd" firstAttribute="top" secondItem="cF2-Le-7mQ" secondAttribute="bottom" constant="60" id="sMt-UJ-Ymh"/>
+                            <constraint firstItem="4mC-6X-38F" firstAttribute="top" secondItem="N7g-HF-yjd" secondAttribute="bottom" constant="10" id="ty8-UY-fkK"/>
+                            <constraint firstItem="nvl-jW-wdP" firstAttribute="top" secondItem="cF2-Le-7mQ" secondAttribute="bottom" constant="10" id="tyU-n1-Ja9"/>
+                            <constraint firstItem="N7g-HF-yjd" firstAttribute="leading" secondItem="ZwX-cT-FIQ" secondAttribute="leadingMargin" constant="10" id="vxS-L2-9LF"/>
+                            <constraint firstItem="cF2-Le-7mQ" firstAttribute="top" secondItem="fXf-Jd-eTc" secondAttribute="bottom" constant="10" id="zNZ-82-luD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dataLabel" destination="cF2-Le-7mQ" id="3EH-BK-JV6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594.375" y="-244.01408450704227"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tZJ-Jg-kSZ">
+            <objects>
+                <viewController id="yR2-hi-ly8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gEy-Dd-Pfm"/>
+                        <viewControllerLayoutGuide type="bottom" id="bmk-sH-Nvx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wDS-wl-cJZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfN-pc-xNN">
+                                <rect key="frame" x="16" y="518" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="&lt;&lt;Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S4R-Ja-viH" kind="show" id="JdR-f1-zwI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ASB Announcements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOT-6q-I2e">
+                                <rect key="frame" x="26" y="30" width="166.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="99t-ON-zfI">
+                                <rect key="frame" x="26" y="61" width="240" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">No school Monday, February 20 through  Friday, February 24. School will resume Monday, February 27.
+
+AP STUDENTS: The deadline to register and pay for AP Exams is MARCH 20th.
+
+Guidance News for Seniors: Please check your School Loop email as Guidance sent out an email with multiple scholarship opportunities. If you meet the qualifications, we encourage you to apply. Let us know if you have any questions. Good Luck!
+
+Have you signed up for SVCTE (formerly CCOC)? Classes are filling up for next year and you don't want to miss out.  To sign up for classes see your Guidance Advisor for the online application instructions.  Students can now attend the morning or afternoon session in any of their classes such as Medical, Automotive Services, Law, Construction, Internet Engineering, Pharmacy Careers and more!</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AOT-6q-I2e" firstAttribute="leading" secondItem="wDS-wl-cJZ" secondAttribute="leadingMargin" constant="10" id="Byb-jw-3l8"/>
+                            <constraint firstItem="AOT-6q-I2e" firstAttribute="top" secondItem="gEy-Dd-Pfm" secondAttribute="bottom" constant="10" id="IAU-tU-9wt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uuv-IE-gt2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1282.5" y="-244.01408450704227"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="saO-Re-ebx">
+            <objects>
+                <viewController id="dbB-lg-cpw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3z7-6b-XbK"/>
+                        <viewControllerLayoutGuide type="bottom" id="1j9-yD-XPL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cQk-PT-ecs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVf-bK-Reh">
+                                <rect key="frame" x="16" y="518" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="&lt;&lt;Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S4R-Ja-viH" kind="show" id="ukb-CR-26Q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sports" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6X-e6-yku">
+                                <rect key="frame" x="26" y="30" width="52" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="CBf-Cc-6uD">
+                                <rect key="frame" x="26" y="61" width="240" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Badminton: vs. Overfelt Friday 3/3 at Branham 4
+
+Baseball Varsity: vs. San Lorenzo Valley Tuesday 2/28 at San Lorenzo Valley 3:30
+
+Softball Varsity: vs. Cupertino Thursday 3/2 at Branham 3:30
+
+Track and Field: vs. Willow Glen Invite Saturday 3/4 at Willow Glen  TBA</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="I6X-e6-yku" firstAttribute="leading" secondItem="cQk-PT-ecs" secondAttribute="leadingMargin" constant="10" id="dvZ-JL-jjE"/>
+                            <constraint firstItem="I6X-e6-yku" firstAttribute="top" secondItem="3z7-6b-XbK" secondAttribute="bottom" constant="10" id="vJg-yL-3yQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QAg-X0-FS9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="594.375" y="404.57746478873241"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8Lg-zR-04h">
+            <objects>
+                <viewController id="vFv-y0-3zc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bbu-JF-7lu"/>
+                        <viewControllerLayoutGuide type="bottom" id="uN4-3g-61f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IMK-6X-poo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdP-EO-f0S">
+                                <rect key="frame" x="16" y="518" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="&lt;&lt;Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S4R-Ja-viH" kind="show" id="2vD-ZE-4Ea"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Club Meetings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HzS-Qa-1MF">
+                                <rect key="frame" x="26" y="30" width="116" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="ig9-dT-1BS">
+                                <rect key="frame" x="26" y="61" width="240" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Best Buddies 3/1- We will be doing origami activities as a stress reliever!
+
+French Club 3/3- Continue the film “La Gloire de Mon Père"
+
+Robotics Club 3/8- Post Google Tournament meeting to adjust hardware and programming of VEX robots</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HzS-Qa-1MF" firstAttribute="leading" secondItem="IMK-6X-poo" secondAttribute="leadingMargin" constant="10" id="BDh-X7-1mW"/>
+                            <constraint firstItem="HzS-Qa-1MF" firstAttribute="top" secondItem="Bbu-JF-7lu" secondAttribute="bottom" constant="10" id="jSr-A2-XyU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aY2-lg-6XD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-101.25" y="485.91549295774649"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="e6Y-h8-1WI">
+            <objects>
+                <viewController id="Olo-VV-kMA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AAZ-tf-hly"/>
+                        <viewControllerLayoutGuide type="bottom" id="VZy-c0-CGS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="46W-Qo-GHd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthdays" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ge-6H-U9J">
+                                <rect key="frame" x="26" y="28" width="75" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3kr-PA-5Zo">
+                                <rect key="frame" x="16" y="518" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="&lt;&lt;Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S4R-Ja-viH" kind="show" id="SwT-2L-JzC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today is:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dI0-Ym-68P">
+                                <rect key="frame" x="26" y="71.5" width="66.5" height="24"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ms. Stephanie John's birthday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rj-d2-vns">
+                                <rect key="frame" x="36" y="105" width="229" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.55180607061026021" green="0.059237720310630688" blue="0.60142082253886009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dI0-Ym-68P" firstAttribute="top" secondItem="7ge-6H-U9J" secondAttribute="bottom" constant="20" id="E10-uD-hw6"/>
+                            <constraint firstItem="6rj-d2-vns" firstAttribute="leading" secondItem="46W-Qo-GHd" secondAttribute="leadingMargin" constant="20" id="XfG-ar-bpo"/>
+                            <constraint firstItem="6rj-d2-vns" firstAttribute="top" secondItem="dI0-Ym-68P" secondAttribute="bottom" constant="10" id="Y3Y-D2-uyx"/>
+                            <constraint firstItem="7ge-6H-U9J" firstAttribute="top" secondItem="AAZ-tf-hly" secondAttribute="bottom" constant="7.5" id="svj-2Q-zgO"/>
+                            <constraint firstItem="dI0-Ym-68P" firstAttribute="leading" secondItem="46W-Qo-GHd" secondAttribute="leadingMargin" constant="10" id="tIx-df-HXb"/>
+                            <constraint firstItem="7ge-6H-U9J" firstAttribute="leading" secondItem="46W-Qo-GHd" secondAttribute="leadingMargin" constant="10" id="y5N-8E-RmF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJM-Hs-Po6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-755.625" y="485.91549295774649"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kXM-I3-gd6">
+            <objects>
+                <viewController id="Sak-mH-oGC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="56v-6z-fw7"/>
+                        <viewControllerLayoutGuide type="bottom" id="LCL-Qf-UP0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fb6-mb-g8T">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="School Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzA-3c-RU0">
+                                <rect key="frame" x="26" y="30" width="111" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Uzx-1d-O9T">
+                                <rect key="frame" x="26" y="61" width="240" height="449"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">WINTER SPORTS BANQUET TICKETS ON SALE NOW
+
+Please join us on Tuesday, March 7, 2017 for the Winter Sports Banquet in the Branham Cafeteria. All athletes and their families are welcome and encouraged to attend this special evening. Dinner will begin at 6:30pm. We will also be holding a raffle for some wonderful prizes!  All of the ticket sales from this raffle benefit the General Athletics fund.  After dinner, All-League Award Winners will be acknowledged in a brief general meeting and will be followed by individual team award ceremonies in breakout rooms throughout the school. Tickets may be purchased using the forms provided by the winter coaches or online here:
+
+https://squareup.com/store/bhs-sportssquare
+
+
+
+CASINO NIGHT TICKETS ON SALE NOW!
+The 7th Annual BHS Casino Night will be held on Saturday, March 18th at the Elk's Lodge.  This fundraiser directly benefits Branham Athletics and teams that sell a minimum of 25 tickets are eligible to share in the profits from the event.  Tickets are available until February 17th at an Early Bird price of $50, regular price $60.
+We hope you'll join us for a fun evening of live music, dinner, dancing, silent auction, gaming tables and more!  Tickets may be purchased using the flyers available in the main office or online here:
+https://squareup.com/store/bhs-sportssquare/item/casino-night</string>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9n-JX-oH5">
+                                <rect key="frame" x="16" y="518" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="17"/>
+                                <state key="normal" title="&lt;&lt;Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S4R-Ja-viH" kind="show" id="4kB-br-F1f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CzA-3c-RU0" firstAttribute="top" secondItem="56v-6z-fw7" secondAttribute="bottom" constant="10" id="DVc-uG-CR7"/>
+                            <constraint firstItem="CzA-3c-RU0" firstAttribute="leading" secondItem="fb6-mb-g8T" secondAttribute="leadingMargin" constant="10" id="TUO-dT-F1r"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8ph-i4-goH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1282.5" y="398.23943661971833"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="branham_logo.JPG" width="300" height="362"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SwT-2L-JzC"/>
+    </inferredMetricsTieBreakers>
+</document>
